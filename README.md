@@ -42,3 +42,20 @@ The historical data for the S&P 500 index is sourced from Yahoo Finance using th
 - Rolling averages and trend indicators are computed over various time horizons to capture longer-term market movements.
 - New predictors such as `Close_Ratio` and `Trend` are added to enhance the model's predictive power.
 
+
+### Example:
+--------------------------------------------------
+Predictions Summary (0=market go down): 
+
+Number of Predictions
+
+0.0    4347
+
+1.0     844
+
+--------------------------------------------------
+Prediction Accuracy: 
+
+0.5414691943127962
+
+--------------------------------------------------
