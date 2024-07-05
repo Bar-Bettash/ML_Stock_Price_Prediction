@@ -7,10 +7,36 @@
 
 
 ## Objective
-The primary goal of this project is to develop a machine learning model that predicts the daily movement of the S&P 500 index. By leveraging historical stock data and implementing a Random Forest Classifier, the model aims to forecast whether the S&P 500 will close higher or lower the next day. This predictive capability is essential for financial decision-making, including trading strategies, risk management, and investment planning.
+
+This project builds a Random Forest model to predict daily S&P 500 closing direction (higher or lower) using historical data. This can aid financial decisions like trading, risk management, and investment planning.
+
+
+### Built With
+
+Python <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
 
 ## Data Source
+
 The historical data for the S&P 500 index is sourced from Yahoo Finance using the `yfinance` library. The data spans multiple decades, allowing for robust analysis and model training.
+
+### Prerequisites
+
+
+* Yfinance: Fetches financial data (e.g., stock prices, splits) from Yahoo Finance.
+  ```sh
+  pip install yfinance
+
+* Matplotlib: Creates static, animated, and interactive visualizations (charts, graphs).
+  ```sh
+  pip install matplotlib
+
+* Sklearn (scikit-learn): Provides machine learning algorithms and tools for data analysis.
+  ```sh
+  pip install scikit-learn
+  
+* Pandas: Offers high-performance data structures (Series, DataFrames) for data analysis and manipulation.
+  ```sh
+  pip install Pandas
 
 ## Key Features
 
@@ -59,3 +85,25 @@ Prediction Accuracy:
 0.5414691943127962
 
 --------------------------------------------------
+
+<!-- CONTACT -->
+## Contact
+
+<p align="left">
+<a href="https://www.linkedin.com/in/barbettash/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/barbettash/" height="30" width="40" /></a>
+</p>
+
+
+**bar.bettash.jobs@gmail.com** 
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+This code is provided "as is" and may not function as intended in the future due to potential updates to external libraries, frameworks, websites, or APIs it interacts with. The code is no longer actively maintained and may require modifications to adapt to future changes.
+
+**Recommendations:**
+
+* Keep an eye on updates to libraries and dependencies to ensure compatibility.
+* Be prepared to adapt the code based on future changes in the target website or API.
+
