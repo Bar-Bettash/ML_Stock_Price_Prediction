@@ -8,6 +8,18 @@
 
 ## Objective
 
+You don’t have to be a stats genius in order to leverage your investment strategy with machine learning!
+
+I challenged myself- build an investing machine with basic level of coding and zero (nearly) math!
+
+The model takes S&P500 historical data and tries to predict daily trends: up or down. Using backtesting (financial method) for accuracy adjustments.
+
+Your mission: Improve it ! You can:
+1. Add more variables- Create a mini data. Give each a score and then using an overall score try to predict.
+2. Change time duration- try quarterly or even annual predictions.
+3. Use language models- you can add a ChatGPT API and ask it to give a score for recent news. Those can be added to the data from the first item!
+
+   
 This project builds a Random Forest model to predict daily S&P 500 closing direction (higher or lower) using historical data. This can aid financial decisions like trading, risk management, and investment planning.
 
 
